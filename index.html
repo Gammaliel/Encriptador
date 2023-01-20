@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="styleHome1.css">
+        <link rel="icon" href="Vector.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <img id="logo" src="Vector.png">
+            <h1 class="titulo">Encriptador</h1>
+        </header>
+             <main>
+
+        <div>
+            <input id="InputTexto" type="text" class="ingresarTexto" placeholder="Ingrese su texto aquí"></input>
+        </div>
+
+        <div class="boton">
+           <button class="encriptar" id="btnEncriptar"onclick="encriptar()">Encriptar</button>
+        </div>
+
+        <div class="boton2">
+            <button id="btnDesencriptar" class="desencriptar"onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+        <div class="advertencia">
+            <img src="advertencia.png">
+        </div>
+        <p class="footer">Solo letras minúsculas y sin acentos</p>
+
+        <div class="rectangulo">
+            
+            <img src="Muñeco.png" class="imagen" id="muñeco">
+            <p class="texto1" id="textMuñeco">Ningun mensaje fue encontrado</p>
+            <textarea  class="texto2" cols="20" rows="8" id="TextoEncriptado">Ingrese el texto que desees encriptar o desencriptar</textarea>
+            <button class="copiar" id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </main>
+
+        <footer>
+            <p class="pie">&copy Creado por Gamaliel Pena</p>
+           
+            
+        </footer>
+       
+    <script src="./js/scriptEncriptador.js"></script>
+    
+        
+
+
+
+
+    </body>
+
+    
+   
+
+
+
+
+
+
+
+</html>
